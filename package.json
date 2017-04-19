@@ -47,8 +47,5 @@
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
-  },
-  "dependencies": {
-    "react-native": "^0.43.3"
   }
 }

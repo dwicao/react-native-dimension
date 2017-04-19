@@ -1,4 +1,5 @@
 # react-native-dimension
+Although this package is designed for React Native, it also works on Expo.
 
 # Introduction
 As a web developer we tend to use like `width: 50%` or `height: 70%`  
