@@ -17,8 +17,5 @@
                 "functions": "ignore"
             }
         ]
-    },
-    "settings": {
-        "import/core-modules": [ "Dimensions" ]
     }
 }

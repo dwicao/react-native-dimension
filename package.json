@@ -4,7 +4,7 @@
   "description": "A React Native Responsive Dimension",
   "main": "src/main.js",
   "scripts": {
-    "test": "eslint src/** && ./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/eslint src/** && ./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -33,14 +33,14 @@
   },
   "homepage": "https://github.com/dwicao/react-native-dimension#readme",
   "dependencies": {
+    "react-native": "x"
+  },
+  "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "react-native": "x"
-  },
-  "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.2",
     "babel-jest": "^19.0.0",

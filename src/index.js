@@ -1,4 +1,4 @@
-import Dimensions from 'Dimensions';
+import Dimensions from 'react-native';
 import handleSize from './utils';
 
 const screenWidth = Dimensions.get('window').width;
