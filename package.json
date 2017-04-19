@@ -1,0 +1,54 @@
+{
+  "name": "react-native-dimension",
+  "version": "1.0.0",
+  "description": "A React Native Responsive Dimension",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "eslint src/** && ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwicao/react-native-dimension.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "dimension",
+    "dimensions",
+    "responsize",
+    "auto",
+    "size",
+    "width",
+    "height"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "author": "Lutfian Dwi Cahyono <lutfiandwica@gmail.com> (https://dwicao.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwicao/react-native-dimension/issues"
+  },
+  "homepage": "https://github.com/dwicao/react-native-dimension#readme",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "react-native": "x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^19.0.2"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
