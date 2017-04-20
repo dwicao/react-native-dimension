@@ -1,6 +1,6 @@
 {
   "name": "react-native-dimension",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A React Native Responsive Dimension",
   "main": "src/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "react-native",
     "dimension",
     "dimensions",
-    "responsize",
+    "responsive",
     "auto",
     "size",
     "width",
