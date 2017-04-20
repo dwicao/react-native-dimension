@@ -16,8 +16,15 @@ describe('utils', () => {
       expect(handleSize(value)).toBe(expected);
     });
 
-    it('return a number with correct decimal from given number', () => {
+    it('return number with correct decimal from given number', () => {
       const value = 45;
+      const expected = 0.45;
+
+      expect(handleSize(value)).toBe(expected);
+    });
+
+    it('return number from string value', () => {
+      const value = '45';
       const expected = 0.45;
 
       expect(handleSize(value)).toBe(expected);
